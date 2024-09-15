@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.todo-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    padding: 5em;
+    border: solid black 2px;
+    border-radius: 2%;
+    padding-top: 0;    
+    min-height: 30em;
+}
+
+#novoItem {
+    margin: 1em;
+}
+
+#apagarItem {
+    margin: 1em;
+}
+
+button{
+    padding: 5px 25px;
+    margin-left: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    color: #5d5d68 ;
+    border: 3px solid #8f8f9d;
+    border-radius: 10px;
+    background-color: #e3e3ff;
+}
+
+button:hover{
+    background-color:#5d5d68 ;
+    border-color: #b7b7d3;
+    color: #fff;
+}
+
+button:active{
+    background-color:#5d5d68 ;
+    border: 2px solid;
+    border-color: #b7b7d3;
+    color: #fff;
+}
+
+.checkboxes{
+    width: 15px;
+    height: 15px;
+    border: 2px solid #8f8f9d;
+    border-radius: 2px;
+    vertical-align: middle;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-color: #e3e3ff;
+}
+
+.checkboxes:checked{
+    background:url("/images/check-mark-1292787.svg") no-repeat;
+    height: 15px;
+    width: 15px;
+}
+
+label{
+    vertical-align: middle;
+}
+
+input{
+    font-family: "Roboto", sans-serif;
+    width: 150px;
+    height: 20px;
+    border: 2px solid #8f8f9d;
+    border-radius: 5px;
+    box-shadow: 1px 1px 0px 0px #00000057;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-left: 1em;
+}
